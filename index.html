@@ -145,15 +145,15 @@
 
     <div class="container-form">
       <form action="#" class="form" id="form">
-        <div><input class="name field" type="text" name="name" placeholder="Имя" /></div>
+        <div><input class="name field" type="text" name="name" placeholder="Имя" required /></div>
         <div>
-          <input class="middle-name field" type="text" name="middle-name" placeholder="Отчество" />
+          <input class="middle-name field" type="text" name="middle-name" placeholder="Отчество" required />
         </div>
         <div>
-          <input class="surname field" type="text" name="surname" placeholder="Фамилия" />
+          <input class="surname field" type="text" name="surname" placeholder="Фамилия" required />
         </div>
         <div>
-          <select class="city field" name="city" id="city">
+          <select class="city field" name="city" id="city" required>
             <option></option>
             <option value="odessa">Odessa</option>
             <option value="kiev">Kiev</option>
@@ -161,7 +161,7 @@
           </select>
         </div>
         <div>
-          <select class="number field" name="number" id="number">
+          <select class="number field" name="number" id="number" required>
             <option></option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -176,6 +176,7 @@
             cols="30"
             rows="2"
             placeholder="Комментарий к заказу"
+            required
           ></textarea>
         </div>
         <button type="submit" class="form-btn">Подтвердить</button>

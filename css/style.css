@@ -49,6 +49,10 @@ h3 {
   left: 30%;
 }
 
+.info-btn {
+  display: inline-block;
+}
+
 .orders {
   position: absolute;
   top: 20%;
